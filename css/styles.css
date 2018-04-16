@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    margin: 10px;
+    padding: 2px;
+    border: solid 1px #85b1de;
+    box-shadow: 2px 2px gray;
+    width: 200px;
+    height: 250px;
+}
+
+#add_button {
+    margin: 0  0 5px 0;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.note > div {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea.title {
+    font-family: Arial, Sans-Serif;
+    font-size: 13px;
+    font-weight: bold;
+    height: 15px;
+    width: auto;
+}
